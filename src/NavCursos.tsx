@@ -3,20 +3,20 @@ import { useNavigate } from "react-router-dom";
 import svg from "./assets/react.svg";
 import SliderMat from './SliderMat';
 
-export default function Nav () {
+export default function NavCursos () {
 
   const navigate=useNavigate()
 
    const ReturnHome =()=> {
-   navigate("/MathSolution/Home");  
+   navigate("/Home");  
    }
 
    const goHorario =()=> {
-   navigate("/MathSolution/Horario");  
+   navigate("/Horario");  
    }
    
    const goCursos =()=> {
-   navigate("/MathSolution/Cursos");  
+   navigate("/Cursos");  
    }
 
 

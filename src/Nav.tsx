@@ -5,21 +5,21 @@ import svg from "./assets/react.svg";
 export default function Nav () {
 
   const navigate=useNavigate()
-
-   const ReturnHome =()=> {
-   navigate("/MathSolution/Home");  
-   }
-
+  
+     const ReturnHome =()=> {
+     navigate("/Home");  
+     }
+  
    const goHorario =()=> {
-   navigate("/MathSolution/Horario");  
+   navigate("/Horario");  
    }
    
    const goCursos =()=> {
-   navigate("/MathSolution/Cursos");  
+   navigate("/Cursos");  
    }
 
    const goAutor =()=> {
-    navigate("/MathSolution/Autor");  
+    navigate("/Autor");  
     }
 
 
@@ -27,7 +27,6 @@ export default function Nav () {
     return(
 
         <>
-
 
 <nav className="navbar bg-alert-mio" data-bs-theme="dark">
     <ul className="nav nav-tabs">

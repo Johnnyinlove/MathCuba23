@@ -5,7 +5,7 @@ export default function Footer() {
   const navigate=useNavigate()
 
   const goAutor =()=> {
-    navigate("/MathSolution/Autor");  
+    navigate("/Autor");  
     }
 
 return(
