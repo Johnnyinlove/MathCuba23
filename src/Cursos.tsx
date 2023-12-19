@@ -70,7 +70,7 @@ return (
 <div>
     <div className='btn btn-primary'>
       <a className="fs-6 text-light"  href={Pink} target="_blank" rel="noopener noreferrer" download="Pink Los Atributos de Dios.pdf"> 
-      Descargar PDF
+      Descargar PDF ahora
       </a>
     </div>
 </div>
